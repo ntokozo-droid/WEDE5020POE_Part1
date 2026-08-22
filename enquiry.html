@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved | Green Seeds Community Garden</title>
+</head>
+<body>
+
+    <!-- Main Header -->
+    <header>
+        <h1>Green Seeds Community Garden</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="enquiry.html">Volunteer</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="enquiry-intro">
+            <h2>Join the Movement</h2>
+            <p>Want to help us grow? Whether you want to get your hands dirty as a volunteer or help us out as a sponsor, we’d love to have you on the team. Just fill out the form below and we'll get back to you!</p>
+        </section>
+<img src="images/hero-garden.jpg (5).jpg">
+        <!-- The Volunteer/Sponsor Form -->
+        <section id="form-section">
+            <h3>Enquiry Form</h3>
+            <form action="#">
+                <!-- Name Field -->
+                <p>
+                    <label for="name">Your Full Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </p>
+
+                <!-- Email Field -->
+                <p>
+                    <label for="email">Your Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                </p>
+
+                <!-- Dropdown for Volunteer or Sponsor (Required for NPOs) -->
+                <p>
+                    <label for="interest">How would you like to help?</label><br>
+                    <select id="interest" name="interest" required>
+                        <option value="">-- Please choose an option --</option>
+                        <option value="volunteer">I want to be a Volunteer</option>
+                        <option value="sponsor">I want to be a Sponsor</option>
+                    </select>
+                </p>
+
+                <!-- Message Box -->
+                <p>
+                    <label for="message">Tell us a bit about yourself:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="30" placeholder="Your message..."></textarea>
+                </p>
+
+                <!-- Submit Button -->
+                <p>
+                    <button type="submit">Send Enquiry</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Green Seeds Community Garden. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
